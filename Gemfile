@@ -37,6 +37,8 @@ gem 'autoprefixer-rails'
 group :development, :test do
   gem 'rspec-rails'
 
+  gem 'guard-rails', require: false
+  gem 'spring-commands-rspec'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
 end
